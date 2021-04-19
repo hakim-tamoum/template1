@@ -1,0 +1,382 @@
+/* ---- 360 ----*/
+/*  ------ general ---- */
+body {font-family: 'Oswald', sans-serif}
+
+.contenaire { width: 1170px; margin: auto }
+
+.clearfix {clear: both}
+
+
+/*------ header  ----------*/
+.header .slider {background-image: url("../images/designer.jpg");background-size: cover; height: 600px }
+
+.header .slider .intro {padding-top: 210px;text-align: center;}
+
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-bottom: 2px solid #55f;
+    border-top: 2px solid #55f;
+    padding: 5px 0;
+    color: #34f;
+}
+.header .slider .intro button {
+    background: none;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid #555;
+    font-weight: 700;
+    padding: 5px 15px;
+    color: #444;
+    text-decoration: none
+}
+.header .slider .intro button a {color: #444;text-decoration: none}
+
+/*------ navbar  ----------*/
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-size: 103%;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    border: none;
+}
+.navbar h2 { text-transform: uppercase;color: #eee}
+
+.navbar h2 span {color: #2ecc71}
+
+.navbar ul {list-style: none;padding-left: 0;overflow: hidden}
+
+.navbar ul li { padding: 10px; float: left }
+
+.navbar ul li a {color: #fff;text-decoration: none}
+
+.navbar ul li a.active {color: #2eccc1}
+
+.navbar ul li a:hover { color: #0c0}
+
+
+/*----------------- features ----------*/
+.features {overflow: hidden; padding:30px 0}
+
+.features .feat {height: 150px;width: 33.3333%}
+
+.features .feat p {padding-right: 20px}
+
+
+/*----------------- about me ----------*/
+.about-me {background-color: #f2f2f2;overflow:hidden}
+
+.opacity {
+    position: absolute;
+    width: 182px;
+    height: 519px;
+    background-color: #fff;
+    opacity: .5;
+}
+.opacity h3 {margin: 0 0 0 2px}
+.opacity p {margin-top: 240px;margin-left: 2px}
+.about-me .image { width: 40%; display: inline-flex}
+
+.about-me .image img { height: 519px; width: 90%}
+
+.about-me .info {width: 60%; }
+
+.about-me .info h2 { margin:20px 0 20px 20px;}
+
+.about-me .info >p { margin: 0 0 10px 20px;}
+
+.about-me .info >p:last-of-type { margin-top: 20px;}
+
+.about-me .info h3 {color: #455}
+
+.about-me .info .hob {overflow: hidden; margin: 10px 0 0 20px}
+
+.about-me .info .hob .continent {overflow: hidden;width: 50%;min-height: 100px}
+
+.hob .continent .icon img { max-width: 100%;margin: 40px 10px 0 0}
+
+.continent .icon {width: 12%; margin-right: 5%}
+
+.continent .text { width: 83%}
+
+
+/*----------------- my skills ----------*/
+.my-skills {padding:30px 0;overflow: hidden}
+
+.my-skills .skills,
+.my-skills .progress { width: 50%;}
+
+.my-skills .skills h2 {margin:20px 0 20px 40px}
+
+.my-skills .skills p {margin: 0 0 10px 40px}
+
+.my-skills .skills p:last-of-type { margin-top: 15px}
+
+.my-skills .skills button {margin:20px 0 0 40px;cursor: pointer}
+
+.my-skills .progress .technique {margin-left: 50px}
+
+.my-skills .progress .technique h3 {color: #555;}
+
+.my-skills .progress .technique div {background-color: #f1e1f1; height: 25px}
+
+.my-skills .progress .technique div span {
+    background-color: #2dcc70;
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold
+}
+
+
+/*----------------- resume ----------*/
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center
+}
+.resume p { color: #555}
+
+.resume button {margin-top: 20px;cursor: pointer}
+
+
+/*----------------- my education ----------*/
+.my-education {padding:30px 0;overflow: hidden}
+
+.my-education hr {border: 1px solid #ddd; margin: 20px 0}
+
+.my-education .main {width: 50%; padding-right: 5%}
+
+.my-education .main h2 {margin:20px 0 20px 40px}
+
+.my-education .main p {margin: 0 0 10px 40px}
+
+.my-education .main p:last-of-type { margin-top: 15px;}
+
+.my-education .exp {width: 45%}
+
+.my-education .exp h3 {color: #666; padding-top: 50px}
+
+.my-education .exp span:first-of-type {color: #777}
+
+.my-education .exp span:last-of-type {
+    color: #fff;
+    background-color: #2dcc70;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 4px;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+
+/*----------------- testimonials ----------*/
+.testimonials {background-color: #f2f2f2; padding:50px 0; text-align: center }
+
+.testimonials q { color: #777; font:italic bold 18px/1.8 arial, tahoma;}
+
+.testimonials h3 { color: #444; margin-bottom: 30px}
+
+.testimonials ul {list-style: none; padding-left: 0}
+
+.testimonials ul li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #080;
+    cursor: pointer
+}
+.testimonials ul li.active,
+.testimonials ul li:hover {background-color: #080}
+
+
+/*-----------------  portofolio----------*/
+.portofolio {padding-top:50px; padding-bottom:  70px; text-align: center }
+
+.portofolio p {padding: 0 70px}
+
+.portofolio .our-work { overflow: hidden; margin: 0px}
+
+.portofolio .our-work > div {float: left; width: 33.333333% }
+
+.portofolio .our-work > div img{
+    width: 95%;
+    background-color: #bbb;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 12px      
+ }
+.oc {position: relative }
+
+.portofolio .our-work .oc .ov {
+  position: absolute;
+  top: 11px;
+  bottom: 1px;
+  left: 13px;
+  right: 0px;
+  height: 94%;
+  width: 95%;
+  opacity: 0;
+  background-color: rgba(45, 204, 112, 0.7);
+}
+.portofolio .our-work .oc:hover .ov {opacity: 1 }
+
+.portofolio .our-work .oi {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center 
+}
+.fa-search:hover {color: #ddd }
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1.2s ease-in-out
+    
+}
+.card:hover { transform: rotateY(180deg) }
+.card > div {position: absolute }
+.font {backface-visibility: hidden}
+.back {backface-visibility: hidden; transform: rotateY(180deg)}
+
+/*-----------------  contact me----------*/
+.contact {
+    background-color: #252f31;
+    padding:30px 0;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+.contact .info { width: 50%;margin-right: 5%}
+
+.contact h2 {margin-left: 40px; color: #ddd}
+
+.contact p { color: #6a6e71; margin-left: 40px}
+
+.contact p strong {color: #ccc}
+
+.contact .form { width: 45%; margin-top: 25px}
+
+.contact .form label { color: #ccc; display: block; padding-bottom: 5px }
+
+.contact .form label span {color: red}
+
+.contact .form input[type="text"] {
+    background-color: #777;
+    color: #ddd; 
+    border: 0;
+    margin-bottom: 15px;
+    width: 80%;
+    outline: none;
+}
+.contact .form textarea {
+    background-color: #777;
+    color: #ddd; 
+    margin-bottom: 15px;
+    width: 80%;
+    height: 150px;
+    display: block;
+    padding: 5px;
+    border:0;
+    outline: none;
+}
+::placeholder {
+    color: #444;
+    opacity: 1;
+    padding-left: 5px
+    /* Firefox */
+}
+.contact .form input[type="submit"] {
+    background-color: #111;
+    color: #ddd;
+    border: 0;
+    margin-top: 10px;
+    padding: 5px
+}
+
+/*-----------------  footer ----------*/
+.footer {
+    background-color: #191e22;
+    padding:20px 0;
+    text-align: center;
+    color: #6a6e71;
+    overflow: hidden
+}
+.footer span { margin-top: 20px}
+
+.footer ul { list-style: none; padding-left: 0 }
+
+.footer ul li {display: inline-block;margin: 0 3px }
+
+
+/* -------- my framework button -------- */
+.my-button {
+    background: none;
+    border: 2px solid #2dcc70;
+    padding: 8px 25px; 
+    color: #2dcc70;
+    font-weight: bold
+}
+.my-heading {color: #555; text-transform: uppercase}
+
+.fl-left {float: left}
+
+.fl-right {float: right}
+
+p {line-height: 1.6;color: #666}
+
+h2 {color: #444}
+
+.fab:hover {color: #fff; border: 1px solid #fff;box-shadow: 3px 3px 3px #777}
+
+.fab {color: #a9a}
+
+
+/** Start Back To Top **/
+.back-top {
+    display: inline-block;
+    position: sticky;
+    z-index: 1;
+    top: 90%;
+    left: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #444;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.back-top:hover {width: 80px}
+
+.back-top:hover i {float: left;margin-left: 10%;}
+
+.back-top a span {opacity: 0; color: #f2f2f1}
+
+.back-top:hover span {
+    opacity: 1;
+    float: left;
+    margin-top: 18%;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+.fa-angle-up {color: orange}
