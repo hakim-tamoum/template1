@@ -8,7 +8,7 @@ body {font-family: 'Oswald', sans-serif}
 
 
 /*------ header  ----------*/
-.header .slider {background-image: url("../images/designer.jpg");background-size: cover; height: 600px }
+.header .slider {background-image: url("../images/ecran1.jpg");background-size: cover; height: 600px }
 
 .header .slider .intro {padding-top: 210px;text-align: center;}
 
@@ -45,7 +45,7 @@ body {font-family: 'Oswald', sans-serif}
     font-size: 103%;
     font-weight: 600;
     letter-spacing: 0.6px;
-    border: none;
+    border: none
 }
 .navbar h2 { text-transform: uppercase;color: #eee}
 
